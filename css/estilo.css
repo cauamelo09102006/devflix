@@ -1,0 +1,318 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+:root {
+	--cor-fundo: #000;
+	--cor-texto: #FFF;
+}
+
+header {
+	background-color: var(--cor-fundo);
+	text-align: center;
+	padding: 20px 10px;
+}
+
+#inicio {
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+.container {
+	display: grid;
+	grid-template-areas:
+	"col-esquerda col-direita";
+	width: 1440px;
+	grid-template-columns: 720px 720px;
+}
+
+.coluna_esquerda {
+	color: var(--cor-texto);
+	grid-area: col-esquerda;
+	height: 900px;
+}
+
+.possicaotexto {
+	margin: 100px auto auto 120px;
+	font-size: 28px;
+	font-family: 'Inter';
+	font-weight: 700;
+	text-align: center;
+}
+
+.possicaoimagem {
+	margin: 20px 10px auto 120px;
+}
+
+.preco {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 16px;
+	background: #009748;
+	border-radius: 8px;
+	width: 512px;
+	height: 30px;
+	margin: 40px 10px auto 160px;
+}
+
+.textocentro {
+	margin: auto auto auto 150px;
+	font-size: 15px;
+	font-family: 'Inter';
+	font-weight: 700;
+}
+
+.assinatura {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 16px;
+	width: 512px;
+	height: 30px;
+	margin: 15px 10px auto 160px;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+}
+
+.ultimotexto {
+	margin: 20px auto auto 220px;
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.bg_quarteto{
+	background-image: url('../imagens/FundoSessao1.png');
+	background-repeat: no-repeat;
+}
+
+.assistadoseujeito {
+	background-color: #222634;
+	height: 900px;
+}
+
+.imagemcomputador {
+	width: 576px;
+	height: 349px;
+	text-align: center;
+	margin: 280px auto auto 280px;
+}
+
+h1 {
+	color: #FFF;
+}
+
+p {
+	color: #FFF;
+}
+
+.personah1 {
+	margin: -240px auto auto 850px;
+	font-size: 50px;
+	font-family: 'Inter';
+	font-weight: 700;
+}
+
+.personap {
+	margin: auto auto auto 850px;
+	font-family: 'Inter';
+	font-weight: 100;
+	padding-right: 100px;
+	
+}
+
+.assinacombo{
+	background-color: #000;
+	height: 900px;
+}
+
+.leaut {
+	margin: 300px auto auto 700px;
+}
+
+.sobrepoi {
+	margin: -115px auto auto 770px;
+}
+
+.outraconfdp {
+	margin: -300px auto auto 180px;
+	padding-right: 830px;
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: 100;
+}
+
+.preco1 {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 16px;
+	background: #009748;
+	border-radius: 8px;
+	width: 420px;
+	height: 18px;
+	margin: 40px 10px auto 205px;
+}
+
+.textocentro1 {
+	margin: auto auto auto 140px;
+	font-size: 15px;
+	font-family: 'Inter';
+	font-weight: 700;
+}
+
+.abaixe{
+	background-color: #222634;
+	height: 900px;
+}
+
+.comp {
+	margin: 277px auto auto 220px;
+}
+
+.ddcomp {
+	margin: auto auto 40px -500px;
+	width: 426.03px;
+	height: 279.05px;
+}
+
+.personh1 {
+	margin: -200px auto auto 850px;
+	font-size: 50px;
+	font-family: 'Inter';
+	font-weight: 700;
+}
+
+.persop {
+	margin: 10px auto auto 850px;
+	padding-right: 120px;
+	font-family: 'Inter';
+	font-weight: 100;	
+}
+
+.penuti {
+	background-color: #000;
+	height: 900px;
+}
+
+.perh1 {
+	margin: -300px auto auto 0px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: 700;
+}
+
+.tv {
+	margin: 400px auto auto 135px;
+}
+
+.comput {
+	margin: 400px auto auto 130px;
+}
+
+.celular {
+	margin: 400px auto auto 90px;
+}
+
+.tamanho {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.TV {
+	margin: 250px auto auto 290px;
+}
+
+.Computador1 {
+	margin: -52px auto auto 690px;
+}
+
+.Celulares {
+	margin: -30px auto 0px 1100px;
+}
+
+.fim {
+	background-color: #222634;
+	height: 700px;
+}
+
+.centro {
+	text-align: center;
+	background-color: #2E3447;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	width: 500px;
+}
+
+.botao {
+	background-color: #0EF555;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	display: block;
+	width: 530px;
+	height: 56px;
+	margin: 10px auto auto auto;
+}
+
+.possicaocontato {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.centrol {
+	margin-left: 500px;
+}
+
+.tamanho1 {
+	width: 505px;
+	height: 165px;
+}
+
+footer {
+	clear: both;
+	background-color: blue;
+}
+
+.rodape {
+	height: 210px;
+	background-color: #222634;
+}
+
+.possicaologo {
+	margin: auto auto auto 645px;
+}
+
+.textrodape {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 14px;
+	margin: auto auto 20px 220px;
+}
+
+.texcentre {
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Inter';
+	font-weight: 100;
+	font-size: 14px;
+}
+
+.separa {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: 100;
+	font-size: 14px;
+}
